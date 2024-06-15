@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.Core" Version="2.2.0" />
+    <PackageReference Include="Amazon.Lambda.Serialization.Json" Version="2.2.1" />
+    <PackageReference Include="AWSSDK.CloudTrail" Version="3.7.305.5" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.309.1" />
+    <PackageReference Include="Elastic.Clients.Elasticsearch" Version="8.14.0" />
+    <PackageReference Include="NEST" Version="7.17.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+  </ItemGroup>
+
+</Project>
